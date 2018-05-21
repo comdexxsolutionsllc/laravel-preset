@@ -1,0 +1,34 @@
+{
+  "name": "comdexxsolutionsllc/laravel-preset",
+  "description": "Laravel 5.5.x Front-end preset for Comdexx Solutions LLC",
+  "type": "project",
+  "license": "MIT",
+  "keywords": [
+    "comdexxsolutions",
+    "laravel",
+    "preset"
+  ],
+  "authors": [
+    {
+      "name": "Sarah Renner",
+      "email": "sarah@sarahrenner.work"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ComdexxSolutionsLLC\\Preset\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ComdexxSolutionsLLC\\Preset\\LaravelPresetServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0.0",
+    "laravel/framework": "^5.5"
+  }
+}
